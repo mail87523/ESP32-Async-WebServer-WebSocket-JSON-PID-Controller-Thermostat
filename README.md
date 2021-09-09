@@ -4,7 +4,7 @@ ESP32 Async WebSocket PID Controller Thermostat
 
 Big thanks to Stéphane Calderoni !!!
 
-This project is inspired by Stéphane Calderoni Steph's µLab projects ESP32 Remote Control with WebSocket and asynchronous-web-controlled-thermostat.
+This project is inspired by Stéphane Calderoni Steph's µLab projects ESP32 Remote Control with WebSocket and Asynchronous Web Controlled Thermostat.
 
 https://m1cr0lab-esp32.github.io/remote-control-with-websocket/
 https://github.com/m1cr0lab-esp32/remote-control-with-websocket

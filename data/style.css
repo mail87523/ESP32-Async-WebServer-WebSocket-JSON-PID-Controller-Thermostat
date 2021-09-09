@@ -1,15 +1,4 @@
 @charset "UTF-8";
-/**
- * ----------------------------------------------------------------------------
- * ESP32 Web Controlled Thermostat
- * ----------------------------------------------------------------------------
- * Author: Stéphane Calderoni
- * Date:   April 2020
- * ----------------------------------------------------------------------------
- * This project is a response to a request made on the RNT Lab forum:
- * https://rntlab.com/question/java-script-code-to-refresh-home-page-only-once/
- * ----------------------------------------------------------------------------
- */
 
 *{
   margin: 0;

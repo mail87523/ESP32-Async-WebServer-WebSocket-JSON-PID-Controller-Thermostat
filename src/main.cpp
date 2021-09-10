@@ -225,8 +225,8 @@ void initGPIO()
   pinMode(Q_04_PIN, OUTPUT);
   pinMode(Q_05_PIN, OUTPUT);
   pinMode(Q_06_PIN, OUTPUT);
-  pinMode(Q_06_PIN, OUTPUT);
   pinMode(Q_07_PIN, OUTPUT);
+  pinMode(Q_08_PIN, OUTPUT);
 
   digitalWrite(LED_PIN, LED_OFF);
   digitalWrite(DIMMER_OUT_PIN, LOW);

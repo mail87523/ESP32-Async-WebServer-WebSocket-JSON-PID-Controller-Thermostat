@@ -41,14 +41,14 @@ bool I_06 = false;
 bool I_07 = false;
 bool I_08 = false;
 
-#define I_01_PIN 32
-#define I_02_PIN 33
-#define I_03_PIN 34
-#define I_04_PIN 35
-#define I_05_PIN 23
-#define I_06_PIN 5
-#define I_07_PIN 23
-#define I_08_PIN 5
+#define I_01_PIN 18
+#define I_02_PIN 19
+#define I_03_PIN 23
+#define I_04_PIN 27
+#define I_05_PIN 32
+#define I_06_PIN 33
+#define I_07_PIN 34
+#define I_08_PIN 35
 
 bool Q_01 = false;
 bool Q_02 = false;
@@ -60,13 +60,13 @@ bool Q_07 = false;
 bool Q_08 = false;
 
 #define Q_01_PIN 2
-#define Q_02_PIN 12
-#define Q_03_PIN 13
-#define Q_04_PIN 14
-#define Q_05_PIN 15
-#define Q_06_PIN 27
+#define Q_02_PIN 4
+#define Q_03_PIN 5
+#define Q_04_PIN 12
+#define Q_05_PIN 13
+#define Q_06_PIN 14
 #define Q_07_PIN 15
-#define Q_08_PIN 27
+#define Q_08_PIN 16
 
 uint32_t I_Status = 0;
 uint32_t Q_Status = 0;
@@ -78,7 +78,7 @@ uint32_t Q_Status = 0;
 /*** DIMMER GLOBAL DEFINE VARIABLE AND FUNCTIONS BEGIN *****************************************/
 /***********************************************************************************************/
 #define DIMMER_OUT_PIN 25
-#define DIMMER_ZC_PIN 26 // for boards with CHANGEBLE input pins
+#define DIMMER_ZC_PIN 26 
 
 dimmerLamp Dimmer(DIMMER_OUT_PIN, DIMMER_ZC_PIN);
 int DimmerOut = 0;
@@ -89,6 +89,8 @@ int DimmerOut = 0;
 /***********************************************************************************************/
 /*** BMP280 GLOBAL DEFINE VARIABLE AND FUNCTIONS BEGIN *****************************************/
 /***********************************************************************************************/
+#define I2C_SDA_PIN 21
+#define I2C_SCL_PIN 22
 Adafruit_BMP280 BMP280;
 
 float Offset_T = 0.0f;
@@ -223,6 +225,8 @@ void initGPIO()
   pinMode(Q_04_PIN, OUTPUT);
   pinMode(Q_05_PIN, OUTPUT);
   pinMode(Q_06_PIN, OUTPUT);
+  pinMode(Q_06_PIN, OUTPUT);
+  pinMode(Q_07_PIN, OUTPUT);
 
   digitalWrite(LED_PIN, LED_OFF);
   digitalWrite(DIMMER_OUT_PIN, LOW);
@@ -233,7 +237,9 @@ void initGPIO()
   digitalWrite(Q_04_PIN, LOW);
   digitalWrite(Q_05_PIN, LOW);
   digitalWrite(Q_06_PIN, LOW);
-
+  digitalWrite(Q_07_PIN, LOW);
+  digitalWrite(Q_08_PIN, LOW);
+  
   pinMode(DIMMER_ZC_PIN, INPUT);
 
   pinMode(I_01_PIN, INPUT);
@@ -242,6 +248,8 @@ void initGPIO()
   pinMode(I_04_PIN, INPUT);
   pinMode(I_05_PIN, INPUT);
   pinMode(I_06_PIN, INPUT);
+  pinMode(I_07_PIN, INPUT);
+  pinMode(I_08_PIN, INPUT);
 }
 
 /***********************************************************************************************/
@@ -1069,6 +1077,8 @@ static void I_Task(void *parameter)
     I_04 = digitalRead(I_04_PIN);
     I_05 = digitalRead(I_05_PIN);
     I_06 = digitalRead(I_06_PIN);
+    I_07 = digitalRead(I_07_PIN);
+    I_08 = digitalRead(I_08_PIN);
 
     if (I_01 | I_02 | I_03 | I_04 | I_05 | I_06 | I_07 | I_08)
     {

@@ -13,12 +13,19 @@ Digital inputs wait HIGH PULSE on each channel to control each channel of output
 Physical Button connected to input I_01 toggle Q_01, also Web Interface button Q_01 also toggle output Q_01 on ESP32 through WebSocket protocol.
 
 I_01 -> Q_01
+
 I_02 -> Q_02
+
 I_03 -> Q_03
+
 I_04 -> Q_04
+
 I_05 -> Q_05
+
 I_06 -> Q_06
+
 I_07 -> Q_07
+
 I_08 -> Q_08
 
 PID control PWM Output by setting  Setpoint, Kp,Ki,Kd, Offset parameters in Web Interface.

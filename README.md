@@ -15,3 +15,5 @@ https://github.com/m1cr0lab-esp32/asynchronous-web-controlled-thermostat
 Code is a mix of modified above two projects and other projects from github. 
 
 Feel free to be inspired and make improve of this project for the benefit of the all community.
+
+For support of this project feel free to contact me at mail87523@gmail.com but consider that I am a human being and not a robot or algorithm.

@@ -2,7 +2,7 @@
 
 Code is a mix of collected and modified projects from github.
 
-As a result we got an example of one solution for PID Controller with visualization in a Web browser.
+As a result we got example of one solution for PID Controller with visualization in a Web browser.
 
 Feel free to be inspired and make improve of this project, and if You like to support this project feel free to contact me through mail
 

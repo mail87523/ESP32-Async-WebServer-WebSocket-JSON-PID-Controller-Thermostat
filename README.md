@@ -2,6 +2,12 @@
 
 Code is a mix of collected and modified projects from github.
 
+Spetial thanks to Stéphane Calderoni who inspired me with his two projects:
+
+https://github.com/m1cr0lab-esp32/remote-control-with-websocket
+
+https://github.com/m1cr0lab-esp32/asynchronous-web-controlled-thermostat
+
 As a result we got example of one solution for PID Controller with visualization in a Web browser.
 
 The Controller have 8 channel of digital input + 8 channel of digital output + 1 input for zerocross detection + 1 PWM output which is PID controlled output.

@@ -1,3 +1,4 @@
+![ESP32_Async_PID_Thermostat_v2](https://user-images.githubusercontent.com/3797201/133068203-4586f3dd-0dd0-4914-8116-5bdfb3af3213.PNG)
 # ESP32 Async WebServer WebSocket JSON PID Controller Thermostat
 
 Code is a mix of collected and modified projects from github.

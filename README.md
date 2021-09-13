@@ -55,10 +55,14 @@ Feel free to be inspired and make improve of this project, and if You like to su
 mail87523@gmail.com
 
 Version 1
+.
+.
 ![ESP32_Async_PID_Thermostat](https://user-images.githubusercontent.com/3797201/132812487-72a7ae12-ad25-4685-bc45-ecb661ab632a.JPG)
 .
 .
 Version 2
+.
+.
 ![ESP32_Async_PID_Thermostat_v2](https://user-images.githubusercontent.com/3797201/133069158-598ec55b-7798-409c-b29f-f684a28e4392.PNG)
 
 

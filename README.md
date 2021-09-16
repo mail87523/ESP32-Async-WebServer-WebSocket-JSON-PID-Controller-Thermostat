@@ -60,7 +60,8 @@ mail87523@gmail.com
 
 Version 1
 
-![ESP32_Async_PID_Thermostat_v2](https://user-images.githubusercontent.com/3797201/133069158-598ec55b-7798-409c-b29f-f684a28e4392.PNG)
+![ESP32_Async_PID_Thermostat_v2_2](https://user-images.githubusercontent.com/3797201/133617943-d0a8ac7f-caa0-4854-bc8d-b98107daa043.PNG)
+
 
 Version 2
 

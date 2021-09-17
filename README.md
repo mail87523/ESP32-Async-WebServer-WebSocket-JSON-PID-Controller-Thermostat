@@ -50,20 +50,11 @@ PID Controller by default is Automatic Heating Mode with Standard PID algorithm 
 
 Simple and useful for Home Automation Projects.
 
-Feel free to be inspired and make improve of this project, and if You like to support this project feel free to contact me through mail
-
-mail87523@gmail.com
-
-
 
 ![ESP32_Async_PID_Thermostat](https://user-images.githubusercontent.com/3797201/132812487-72a7ae12-ad25-4685-bc45-ecb661ab632a.JPG)
 
 Version 1 in RUN (AUTOMATIC) HEATING MODE with Standard PID Algorithm.
 
-![ESP32_Async_PID_Thermostat_v2_2](https://user-images.githubusercontent.com/3797201/133617943-d0a8ac7f-caa0-4854-bc8d-b98107daa043.PNG)
-
-
-Version 2 in RUN (AUTOMATIC) HEATING MODE with Standard PID Algorithm.
 
 
 
